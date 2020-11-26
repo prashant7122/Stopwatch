@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.header {
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(149, 211, 149);
+  height: 20vh;
+  widows: 100%;
+  font-size: 72px;
+  border-bottom: 2px solid rgb(179, 126, 126);
+}
+.container {
+  width: 100vw;
+  text-align: center;
+}
+
+#display {
+  width: 100%;
+  font-size: 72px;
+  text-align: center;
+  margin: 25px;
+}
+.btn {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 35px;
+}
+#previous-result {
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  margin: 25px;
+}
+#current-result {
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  margin: 25px;
+}
+#result {
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  margin: 25px;
+}
